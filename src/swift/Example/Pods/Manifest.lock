@@ -1,0 +1,24 @@
+PODS:
+  - PastaParser (1.0.0):
+    - SwiftyXMLParser
+  - SwiftyXMLParser (4.0.0)
+
+DEPENDENCIES:
+  - PastaParser (from `../`)
+  - SwiftyXMLParser (= 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftyXMLParser
+
+EXTERNAL SOURCES:
+  PastaParser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PastaParser: ae270a3b54df3c2701eee1fc6b363af8f430605f
+  SwiftyXMLParser: 8065da2e715e86aeba677a34fad8c252db5128bb
+
+PODFILE CHECKSUM: 8681ef8c2768b5be5e889d70d1e1c36d9719ff90
+
+COCOAPODS: 1.6.0.beta.2

@@ -1,0 +1,6 @@
+framework module PastaParser {
+  umbrella header "PastaParser-umbrella.h"
+
+  export *
+  module * { export * }
+}

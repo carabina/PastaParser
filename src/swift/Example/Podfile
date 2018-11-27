@@ -1,0 +1,15 @@
+use_frameworks!
+platform :ios, '10.0'
+
+target 'PastaParser_Example' do
+    
+    pod 'PastaParser', :path => '../'
+
+    target 'PastaParser_Tests' do
+        inherit! :search_paths
+        
+        pod 'SwiftyXMLParser', '4.0'
+        
+    end
+
+end

@@ -1,0 +1,6 @@
+framework module Pods_PastaParser_Example {
+  umbrella header "Pods-PastaParser_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
